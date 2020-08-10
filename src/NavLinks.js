@@ -1,12 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 
 function NavLinks(){
+    const [user, setUser] = useState("Login")
+
+    /* useEffect(() => {
+        
+    }) */
+
+    
+
     return(
-        <li>
-            <ul></ul>
-            <ul></ul>
-            <ul></ul>
-        </li>
+
+        <ul>
+            <li>Home</li>
+            <li>Notifications</li>
+            <li onClick={() => setUser(currentUser => currentUser = "Stephen")}>{user}</li>
+            
+        </ul>
+        
     )
 }
 
