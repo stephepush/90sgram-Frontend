@@ -2,11 +2,12 @@ import React from "react";
 import Likes from "./Likes";
 import CommentBar from "./CommentBar";
 import CommentContainer from "./CommentContainer";
-import ImageContainer from "./ImageContainer"
+import ImageContainer from "./ImageContainer";
+import './index.css';
 
 function MediaContainer() {
     return(
-        <main>
+        <main className="media-container">
             <section>
                 <ImageContainer />
             </section>

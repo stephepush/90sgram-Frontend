@@ -1,9 +1,10 @@
 import React from "react";
+import './index.css';
 
 function Likes() {
     return(
-        <button>
-            Like
+        <button className="like-button">
+            Like!
         </button>
     )
 }

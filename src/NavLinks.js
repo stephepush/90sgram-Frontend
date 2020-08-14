@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+//import {Link} from "react-router-dom";
+import './index.css';
 
 function NavLinks(){
     const [user, setUser] = useState("Login")
@@ -11,11 +13,10 @@ function NavLinks(){
 
     return(
 
-        <ul>
+        <ul className="nav-ul">
             <li>Home</li>
             <li>Notifications</li>
             <li onClick={() => setUser(currentUser => currentUser = "Stephen")}>{user}</li>
-            
         </ul>
         
     )

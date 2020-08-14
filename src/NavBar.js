@@ -1,14 +1,15 @@
 import React from "react";
 import Logo from "./Logo";
-import SearchBar from "./SearchBar";
+import UploadBar from "./SearchBar";
 import NavLinks from "./NavLinks";
+import './index.css';
 
 function NavBar(){
     return(
-        <nav>
+        <nav className="nav">
             <Logo />
-            <SearchBar />
-            <NavLinks />    
+            <UploadBar className="item-2"/>
+            <NavLinks className="item-3"/>    
         </nav>
     )
 }
