@@ -1,6 +1,7 @@
 import React from "react"
 import NavBar from "./NavBar"
 import MediaContainer from "./MediaContainer"
+import './index.css';
 
 function Container() {
     return(

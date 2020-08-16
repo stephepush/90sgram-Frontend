@@ -8,14 +8,9 @@ import './index.css';
 function MediaContainer() {
     return(
         <main className="media-container">
-            <section>
+            
                 <ImageContainer />
-            </section>
-            <section>
-                <Likes />
-                <CommentBar />
-                <CommentContainer />
-            </section>
+           
         </main>    
     )
 }
