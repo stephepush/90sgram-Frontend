@@ -11,7 +11,7 @@ import './index.css';
 
 function RouteContainer() {
     return(
-        <main className="route-container">
+        <React.Fragment>
             
             {/* <ImageContainer /> */}
             <Switch>
@@ -19,7 +19,7 @@ function RouteContainer() {
                 <Route path="/image" render={() => <ImageContainer />} />
             </Switch>
            
-        </main>    
+        </React.Fragment>    
     )
 }
 

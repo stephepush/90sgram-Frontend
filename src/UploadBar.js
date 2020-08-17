@@ -3,7 +3,7 @@ import React, { useState } from "react";
 function UploadBar() {
     const [searchQuery, setSearchQuery] = useState('')
     return(
-        <div>
+        <section>
             <input 
                 type="search" 
                 id="site-search" 
@@ -16,7 +16,7 @@ function UploadBar() {
             />
                {/* <p>{searchQuery}</p> */} 
             
-        </div>
+        </section>
     )
 }
 

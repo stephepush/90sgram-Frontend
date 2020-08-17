@@ -15,11 +15,11 @@ ul.nav-ul>li {
   display: inline-block;
 }
 
-.media-container {
+.route-container {
   background-color: aqua;
   display: grid;
-  width: 100%;
-  height: 100%;
+  
+  
   margin: 0;
    padding: 0;
   display: grid;
@@ -80,3 +80,22 @@ ul.nav-ul>li {
   grid-row-start: 3;
   grid-column-start:2;
 }
+
+/* .user-route{
+  width: 100%;
+  display: grid;
+  grid-template-rows: 10% 1fr;
+}
+
+.user-head { 
+  display: block;
+
+}
+
+
+.user-asset-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */

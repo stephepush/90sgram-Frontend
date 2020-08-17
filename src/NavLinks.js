@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-//import {Link} from "react-router-dom";
+import {Link, Switch, Route} from "react-router-dom";
+import User from "./User";
 import './index.css';
 
 function NavLinks(){
-    const [user, setUser] = useState("Login")
+    //const [user, setUser] = useState("Login")
 
     /* useEffect(() => {
         
@@ -13,11 +14,15 @@ function NavLinks(){
 
     return(
 
-        <ul className="nav-ul">
-            <li>Home</li>
-            <li>Notifications</li>
-            <li onClick={() => setUser(currentUser => currentUser = "Stephen")}>{user}</li>
-        </ul>
+        <section className="nav-ul">
+            <Link>Home</Link>
+            &nbsp
+            <Link to="/user">UserHome</Link>
+
+            <Switch>
+                <Route exact path="/user" render={() => <User />} />
+            </Switch>
+        </section>
         
     )
 }
