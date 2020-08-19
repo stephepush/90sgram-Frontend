@@ -3,7 +3,7 @@ import './index.css';
 
 export default function AllImageCard() {
     return (
-        <section class="">
+        <section class="all-image-card">
 
         </section>
     );
