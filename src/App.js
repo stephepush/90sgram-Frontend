@@ -34,9 +34,9 @@ function App() {
           {/* <NavLinks className="item-3"/>     */}
         <section className="nav-ul">
             <Link to="/image">Home</Link>
-            &nbsp
+            &nbsp;
             <Link to="/user">UserHome</Link>
-
+            <Link to="/">All</Link>
             {/* <Switch>
                 <Route exact path="/user" render={() => <User />} />
             </Switch> */}

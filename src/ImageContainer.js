@@ -16,15 +16,15 @@ height: 600px;
 export default function ImageContainer(props) {
 
     return(
-    <main className="image-container">
+    <section className="image-container">
         <section className="image-route">
-            <img src="https://media.giphy.com/media/12m3hgKuSuhClW/giphy.gif" alt="Wolverine from a capcom game"></img>
+            <img src="https://media.giphy.com/media/gkLtz9ZUIZfWf1J5VC/giphy.gif" alt="AIM"></img>
         </section>
         <section>
             <Likes />
             
             <CommentContainer />
         </section>
-    </main>
+    </section>
     )
 }

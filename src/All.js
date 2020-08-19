@@ -2,7 +2,7 @@ import React from "react";
 
 export default function All(){
     return(
-        <section>
+        <section class="all-route">
             
         </section>
     )

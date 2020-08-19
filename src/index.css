@@ -1,12 +1,15 @@
-
+* {    padding: 0;    margin: 0;    box-sizing: border-box;   }
 
 body{
   font-family: Helvetica;
+  display: grid;
+  grid-template-rows: 5% 1fr;
+  height: auto;
 }
 
 .nav {
   width: 100%;
-  height: 5%;
+  height: 10vh;
   display: inline-grid;
   grid-template-columns: 20% 1fr 1fr 1fr 20%;
 }
@@ -21,14 +24,19 @@ ul.nav-ul>li {
   
   
   margin: 0;
-   padding: 0;
-  display: grid;
+  padding: 0;
+  
   grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 1fr; 
   background-color: #e1e1e1;  
-  background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%23c2c0c5' fill-opacity='0.65'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-color: #0e0e07;
+  background-color: #661437;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%232a35e4' fill-opacity='0.85'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+  height: 90vh;
 }
 
 .image-container {
+  height: 60%;
   background-color: white;
   grid-column-start: 2;
   grid-column-end: 3;
@@ -37,7 +45,7 @@ ul.nav-ul>li {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 15% 70% 15%;
-  height: 600px;
+  
 }
 .image-route>img {
   grid-column-start: 1;
@@ -81,14 +89,17 @@ ul.nav-ul>li {
   grid-column-start:2;
 }
 
-/* .user-route{
+.user-route{
   width: 100%;
   display: grid;
   grid-template-rows: 10% 1fr;
 }
 
 .user-head { 
-  display: block;
+  display: flex;
+  width: 60%;
+  grid-row-start:1;
+  grid-row-end: 2;
 
 }
 
@@ -98,4 +109,11 @@ ul.nav-ul>li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-} */
+}
+
+.all-route{
+  
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background: rgba(220,220,220, .6)
+}
