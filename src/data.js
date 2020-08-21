@@ -5,7 +5,7 @@ const userData = [
         images: [
             {
                 image_id: 0,
-                image_url: "http://gph.is/10EF4Aj",
+                image_url: "https://media.giphy.com/media/U3G9QlJrSn2ZG/giphy.gif",
                 caption: "Art + Technology",
                 likes: 20,
                 image_comments: [
@@ -25,7 +25,7 @@ const userData = [
             },
             {
                 image_id: 1,
-                image_url:"https://giphy.com/gifs/52EZrtYlXje70ke7xC",
+                image_url:"https://media.giphy.com/media/52EZrtYlXje70ke7xC/giphy.gif",
                 caption:"MRW the iMac I'm using at school freezes",
                 likes:7,
                 image_comments: [
@@ -53,7 +53,7 @@ const userData = [
             },
             {
                     image_id: 2,
-                    image_url:"http://gph.is/1Qo9FXy",
+                    image_url:"https://media.giphy.com/media/l2JeedXBWBMn742Jy/giphy.gif",
                     caption:"Dont forget to VOTE!",
                     likes: 9003,
                     image_comments: [
@@ -73,7 +73,7 @@ const userData = [
             },
             {
                 image_id: 3,
-                image_url:"https://giphy.com/gifs/euwTywDjYIMSAjcXeP",
+                image_url:"https://giphy.com/gifs/euwTywDjYIMSAhttps://giphy.com/gifs/euwTywDjYIMSAjcXeP",
                 caption:"On sale at FuncoLand for $16.99. Should I buy it?",
                 likes: 3,
                 image_comments: [
