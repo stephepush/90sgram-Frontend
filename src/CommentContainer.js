@@ -3,7 +3,7 @@ import CommentBar from "./CommentBar.js"
 
 function CommentContainer(){
     return(
-        <section>
+        <section className="comment-container">
             <CommentBar />
         </section>
     )

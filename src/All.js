@@ -17,6 +17,8 @@ export default function All(){
             imageData =>
             <AllImageCard 
                 image={imageData.image_url}
+                likes={imageData.likes}
+                username={imageData.username}
             />
         ) 
                         

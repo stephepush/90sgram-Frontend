@@ -33,10 +33,11 @@ function App() {
         </section>
         {/* <NavLinks className="item-3"/>     */}
         <section className="nav-ul">
-          <Link to="/image">Home</Link>
+          <Link to="/image">ImageLayout</Link>
             &nbsp;
-            <Link to="/user">UserHome</Link>
-          <Link to="/">All</Link>
+            <Link to="/user">UserLayout</Link>
+            &nbsp;
+          <Link to="/">Home</Link>
           {/* <Switch>
                 <Route exact path="/user" render={() => <User />} />
             </Switch> */}

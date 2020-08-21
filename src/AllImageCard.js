@@ -9,13 +9,13 @@ export default function AllImageCard(props) {
             {/*<h4>{props.username}</h4>*/}
             {/*{eachImage}*/}
             <div className="top">
-
+                <p className="all-username">{props.username}</p>
             </div>
             <div className="img-cont">
                 <img src={props.image} />
             </div>
             <div className="bottom">
-
+                <p>Likes: {props.likes}</p>
             </div>
         </section>
     );
